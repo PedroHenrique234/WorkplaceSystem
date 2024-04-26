@@ -1,9 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using WorkplaceSystem.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
+builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BankContext>(a => a.UseSqlServer(
+    "Server=ACERASPIRE;Database=Db_WorkplaceSystem;User id=sa;Password=2610#Gabi;Encrypt=False"));
 
 var app = builder.Build();
 

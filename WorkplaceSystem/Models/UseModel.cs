@@ -2,7 +2,7 @@
 {
     public class UseModel
     {
-        public int useId { get; set; }
+        public int Id { get; set; }
         public DateTime DateUse { get; set; }
         public TimeSpan StartUse { get; set; }
         public TimeSpan EndUse { get; set; }
