@@ -16,5 +16,11 @@ namespace WorkplaceSystem.Repositories
             _bankContext.SaveChanges();
             return client;
         }
+
+        public List<ClientModel> FindAllClients()
+        {
+            List<ClientModel> client = _bankContext.Clients.ToList();
+            return client;
+        }
     }
 }

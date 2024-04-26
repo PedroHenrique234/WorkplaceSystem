@@ -1,4 +1,4 @@
-﻿@model ClientModel;
+﻿@model List<ClientModel>;
 @{
     ViewData["Title"] = "Client Page";
 }
@@ -6,4 +6,26 @@
 <div class="text-center">
     <h1 class="display-4">Bem vindo!</h1>
     <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="AddClient">Novo cliente</a>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Data de criação</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (ClientModel item in Model)
+                {
+                    <tr>
+                        <td>@item.CreateDate</td>
+                        <td>@item.Name</td>
+                        <td>@item.PhoneNumber</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
 </div>

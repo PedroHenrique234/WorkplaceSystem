@@ -14,8 +14,10 @@ namespace WorkplaceSystem.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<ClientModel> client = _clientRepository.FindAllClients();
+            return View(client);
         }
+
         public IActionResult AddClient()
         {
             return View();
