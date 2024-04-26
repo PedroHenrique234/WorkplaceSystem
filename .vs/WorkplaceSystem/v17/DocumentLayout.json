@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\workplacesystem\\workplacesystem\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\workplacesystem\\workplacesystem\\models\\usemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\models\\usemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UseModel.cs",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\UseModel.cs",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Models\\UseModel.cs",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\UseModel.cs",
+              "RelativeToolTip": "WorkplaceSystem\\Models\\UseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:33:41.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClientModel.cs",
               "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\ClientModel.cs",
               "RelativeDocumentMoniker": "WorkplaceSystem\\Models\\ClientModel.cs",
               "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\ClientModel.cs",
               "RelativeToolTip": "WorkplaceSystem\\Models\\ClientModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T17:29:56.569Z",
               "EditorCaption": ""
