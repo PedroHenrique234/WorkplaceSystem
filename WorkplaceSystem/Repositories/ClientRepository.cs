@@ -61,5 +61,22 @@ namespace WorkplaceSystem.Repositories
         {
             return _bankContext.Clients.FirstOrDefault(x => x.Id == id);
         }
+
+        public UseModel AddUse(UseModel use, int id)
+        {
+            ClientModel client = FindById(use.ClientId);
+
+            use.Client = client;
+            use.TotalUse = use.EndUse - use.StartUse;
+
+            _bankContext.Uses.Add(use);
+            _bankContext.SaveChanges();
+            return use;
+        }
+
+        public List<UseModel> FindAllUses()
+        {
+            return _bankContext.Uses.ToList();
+        }
     }
 }

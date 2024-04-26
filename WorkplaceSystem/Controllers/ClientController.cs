@@ -51,5 +51,27 @@ namespace WorkplaceSystem.Controllers
             _clientRepository.UpdateClient(client);
             return RedirectToAction("Index");
         }
+
+
+        public IActionResult ClientDetails(int id)
+        {
+            ClientModel client = _clientRepository.FindById(id);
+            List<UseModel> use = _clientRepository.FindAllUses();
+            return View(client);
+        }
+        public IActionResult AddUse(int id)
+        {
+            ClientModel client = _clientRepository.FindById(id);
+            UseModel use = new UseModel();
+            use.ClientId = client.Id;
+            return View(use);
+        }
+
+        [HttpPost]
+        public IActionResult AddNewUse(UseModel use, int Id)
+        {
+            _clientRepository.AddUse(use, Id);
+            return RedirectToAction("Index");
+        }
     }
 }

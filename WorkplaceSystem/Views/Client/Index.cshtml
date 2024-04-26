@@ -26,7 +26,9 @@
                             <td>@item.Name</td>
                             <td>@item.PhoneNumber</td>
                             <td>
-                                <a role="button" class="btn btn-secondary"
+                                <a role="button" class="btn btn-primary"
+                                   asp-controller="Client" asp-action="ClientDetails" asp-route-id="@item.Id">Mais</a>
+                                <a role="button" class="btn btn-primary"
                                    asp-controller="Client" asp-action="UpdateClient" asp-route-id="@item.Id">Editar</a>
                                 <a role="button" class="btn btn-secondary"
                                    asp-controller="Client" asp-action="DisableConfirm" asp-route-id="@item.Id">Apagar</a>

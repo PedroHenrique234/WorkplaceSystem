@@ -3,7 +3,7 @@
     public class UseModel
     {
         public int Id { get; set; }
-        public DateTime DateUse { get; set; }
+        public DateTime DateUse { get; set; } = DateTime.Now;
         public TimeSpan StartUse { get; set; }
         public TimeSpan EndUse { get; set; }
         public TimeSpan TotalUse { get; set; }

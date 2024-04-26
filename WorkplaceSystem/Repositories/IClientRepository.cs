@@ -9,5 +9,7 @@ namespace WorkplaceSystem.Repositories
         public ClientModel FindById(int id);
         public ClientModel DisableClient(ClientModel client);
         public ClientModel UpdateClient(ClientModel client);
+        public UseModel AddUse(UseModel use, int id);
+        public List<UseModel> FindAllUses();
     }
 }
