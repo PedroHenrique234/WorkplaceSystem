@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\WorkplaceSystem\WorkplaceSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/WorkplaceSystem/WorkplaceSystem/Views/Client/AddClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEFkZENsaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/WorkplaceSystem/WorkplaceSystem/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

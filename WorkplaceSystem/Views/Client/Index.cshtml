@@ -1,7 +1,9 @@
-﻿@{
+﻿@model ClientModel;
+@{
     ViewData["Title"] = "Client Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Bem vindo!</h1>
+    <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="AddClient">Novo cliente</a>
 </div>
