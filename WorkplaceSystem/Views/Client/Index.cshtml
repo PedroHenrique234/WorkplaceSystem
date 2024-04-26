@@ -19,11 +19,20 @@
             {
                 @foreach (ClientModel item in Model)
                 {
-                    <tr>
-                        <td>@item.CreateDate</td>
-                        <td>@item.Name</td>
-                        <td>@item.PhoneNumber</td>
-                    </tr>
+                    if (item.Situation == true)
+                    {
+                        <tr>
+                            <td>@item.CreateDate</td>
+                            <td>@item.Name</td>
+                            <td>@item.PhoneNumber</td>
+                            <td>
+                                <a role="button" class="btn btn-secondary"
+                                   asp-controller="Client" asp-action="UpdateClient" asp-route-id="@item.Id">Editar</a>
+                                <a role="button" class="btn btn-secondary"
+                                   asp-controller="Client" asp-action="DisableConfirm" asp-route-id="@item.Id">Apagar</a>
+                            </td>
+                        </tr>
+                    }
                 }
             }
         </tbody>

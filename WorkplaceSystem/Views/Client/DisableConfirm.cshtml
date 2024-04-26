@@ -1,0 +1,20 @@
+﻿@model ClientModel;
+@{
+    ViewData["Title"] = "Disable Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Realmente deseja apagar o cliente (@Model.Name)?</h1>
+
+    <form asp-controller="Client" asp-action="DisableClient" method="post">
+
+        <input type="hidden" asp-for="@Model.Id"/>
+        <input type="hidden" asp-for="@Model.Name"/>
+        <input type="hidden" asp-for="@Model.CreateDate"/>
+        <input type="hidden" asp-for="@Model.Situation" />
+
+        <button type="submit" class="btn btn-primary">Apagar</button>
+        <a role="button" class="btn btn-secondary" asp-controller="Client" asp-action="Index">Voltar</a>
+
+    </form>
+</div>

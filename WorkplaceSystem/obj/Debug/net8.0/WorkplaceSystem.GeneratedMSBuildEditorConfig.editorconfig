@@ -22,8 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEFkZENsaWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/WorkplaceSystem/WorkplaceSystem/Views/Client/DisableConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERpc2FibGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/WorkplaceSystem/WorkplaceSystem/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/WorkplaceSystem/WorkplaceSystem/Views/Client/UpdateClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XFVwZGF0ZUNsaWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yelow/OneDrive/Documentos/C\#/Asp.Net/WorkplaceSystem/WorkplaceSystem/Views/Shared/Error.cshtml]
