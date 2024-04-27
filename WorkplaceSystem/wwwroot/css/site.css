@@ -25,3 +25,12 @@ footer{
     position: fixed;
     bottom: 10px;
 }
+
+#IndexTitle{
+    margin-top:5rem;
+    margin-bottom:3rem;
+}
+
+#IndexTitle a{
+    margin-top: 2rem;
+}

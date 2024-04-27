@@ -4,6 +4,7 @@
 }
 
 <div class="text-center">
+
     <h1 class="display-4">Novo cliente</h1>
     <form asp-controller="Client" asp-action="AddClient" method="post">
         <div class="form-group">
@@ -13,7 +14,7 @@
 
         <div class="form-group">
             <label for="Name">Telefone</label>
-            <input asp-for="PhoneNumber" type="tel" class="form-control" required-placeholder="(xx) xxxxx-xxxx">
+            <input asp-for="PhoneNumber" type="tel" onkeyup="formatarTelefone(this)" class="form-control" maxlength="11" required-placeholder="(xx) xxxxx-xxxx">
         </div>
 
         <button type="submit" class="btn btn-primary">Adicionar</button>

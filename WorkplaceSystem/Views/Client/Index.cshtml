@@ -3,15 +3,19 @@
     ViewData["Title"] = "Client Page";
 }
 
-<div class="text-center">
+<div class="text-center" id="IndexTitle">
     <h1 class="display-4">Bem vindo!</h1>
     <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="AddClient">Novo cliente</a>
-    <table class="table table-striped">
+</div>
+
+<div class="text-center">
+    <table class="table table-striped" id="table-Clients">
         <thead>
             <tr>
-                <th scope="col">Data de criação</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Telefone</th>
+                <th scope="col">Data de criação</th>
+                <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
@@ -22,9 +26,9 @@
                     if (item.Situation == true)
                     {
                         <tr>
-                            <td>@item.CreateDate</td>
                             <td>@item.Name</td>
                             <td>@item.PhoneNumber</td>
+                            <td>@item.CreateDate</td>
                             <td>
                                 <a role="button" class="btn btn-primary"
                                    asp-controller="Client" asp-action="ClientDetails" asp-route-id="@item.Id">Mais</a>
