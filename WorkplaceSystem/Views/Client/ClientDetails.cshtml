@@ -4,7 +4,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Bem vindo!</h1>
+    <h1 class="display-4">Uso do cliente @Model.Name</h1>
     <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="AddUse" asp-route-id="@Model.Id">Novo uso</a>
     <table class="table">
         <thead>
@@ -12,6 +12,7 @@
                 <th scope="col">Data de uso</th>
                 <th scope="col">Início</th>
                 <th scope="col">Término</th>
+                <th scope="col">Sala alugada</th>
                 <th scope="col">Tempo total</th>
             </tr>
         </thead>
@@ -25,6 +26,7 @@
                         <th>@item.DateUse.ToString("dd/MM/yyyy")</th>
                         <td>@item.StartUse</td>
                         <td>@item.EndUse</td>
+                        <td>@item.RentedRoom</td>
                         <td>@item.TotalUse</td>
                     </tr>
 

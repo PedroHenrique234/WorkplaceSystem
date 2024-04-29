@@ -1,13 +1,17 @@
-﻿namespace WorkplaceSystem.Models
+﻿using WorkplaceSystem.Enums;
+
+namespace WorkplaceSystem.Models
 {
     public class UseModel
     {
         public int Id { get; set; }
-        public DateTime DateUse { get; set; } = DateTime.Now;
+        public DateTime DateUse { get; set; }
         public TimeSpan StartUse { get; set; }
         public TimeSpan EndUse { get; set; }
         public TimeSpan TotalUse { get; set; }
         public int ClientId { get; set; }
         public ClientModel Client { get; set; }
+        public TimeSpan MontlyUsage { get; set; }
+        public RoomsEnum RentedRoom { get; set; }
     }
 }

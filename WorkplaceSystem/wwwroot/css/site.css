@@ -34,3 +34,7 @@ footer{
 #IndexTitle a{
     margin-top: 2rem;
 }
+
+#table-Clients td{
+    text-align: start;
+}

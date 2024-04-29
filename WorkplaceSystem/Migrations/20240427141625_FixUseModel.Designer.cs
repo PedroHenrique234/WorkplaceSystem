@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WorkplaceSystem.Data;
 
@@ -11,9 +12,11 @@ using WorkplaceSystem.Data;
 namespace WorkplaceSystem.Migrations
 {
     [DbContext(typeof(BankContext))]
-    partial class BankContextModelSnapshot : ModelSnapshot
+    [Migration("20240427141625_FixUseModel")]
+    partial class FixUseModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,12 +67,6 @@ namespace WorkplaceSystem.Migrations
 
                     b.Property<TimeSpan>("EndUse")
                         .HasColumnType("time");
-
-                    b.Property<TimeSpan>("MontlyUsage")
-                        .HasColumnType("time");
-
-                    b.Property<int>("RentedRoom")
-                        .HasColumnType("int");
 
                     b.Property<TimeSpan>("StartUse")
                         .HasColumnType("time");
