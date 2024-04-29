@@ -6,18 +6,25 @@
 <div class="text-center">
 
     <h1 class="display-4">Novo cliente</h1>
-    <form asp-controller="Client" asp-action="AddClient" method="post">
-        <div class="form-group">
-            <label for="Name">Nome</label>
-            <input asp-for="Name" type="text" class="form-control" placeholder="Digite o nome do cliente">
-        </div>
+    <section>
+        <form asp-controller="Client" asp-action="AddClient" method="post">
+            <div class="form-group">
+                <label for="Name">Nome</label>
+                <input id="AddInput" asp-for="Name" type="text" class="form-control" placeholder="Digite o nome do cliente" required>
+            </div>
 
-        <div class="form-group">
-            <label for="Name">Telefone</label>
-            <input asp-for="PhoneNumber" type="tel" onkeyup="formatarTelefone(this)" class="form-control" maxlength="11" required-placeholder="(xx) xxxxx-xxxx">
-        </div>
+            <div class="form-group">
+                <label for="CPF">CPF</label>
+                <input id="AddInput" asp-for="CPF" type="number" min="11" maxlength="11" class="form-control" placeholder="Digite o nome do cliente" required>
+            </div>
 
-        <button type="submit" class="btn btn-primary">Adicionar</button>
-        <a role="button" class="btn btn-secondary" asp-controller="Client" asp-action="Index">Voltar</a>
-    </form>
+            <div class="form-group">
+                <label for="Name">Telefone</label>
+                <input id="AddInput" asp-for="PhoneNumber" type="tel" onkeyup="formatarTelefone(this)" class="form-control" maxlength="11" required-placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Adicionar</button>
+            <a role="button" class="btn btn-secondary" asp-controller="Client" asp-action="Index">Voltar</a>
+        </form>
+    </section>
 </div>
