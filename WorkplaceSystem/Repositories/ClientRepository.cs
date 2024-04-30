@@ -72,8 +72,6 @@ namespace WorkplaceSystem.Repositories
 
             use.Client = client;
             use.TotalUse = use.EndUse - use.StartUse;
-            
-
 
             _bankContext.Uses.Add(use);
             _bankContext.SaveChanges();
