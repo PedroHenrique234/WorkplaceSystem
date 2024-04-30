@@ -11,7 +11,6 @@ namespace WorkplaceSystem.Models
         public TimeSpan TotalUse { get; set; }
         public int ClientId { get; set; }
         public ClientModel Client { get; set; }
-        public TimeSpan MontlyUsage { get; set; }
         public RoomsEnum RentedRoom { get; set; }
     }
 }

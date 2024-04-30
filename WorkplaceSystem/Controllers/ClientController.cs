@@ -52,6 +52,13 @@ namespace WorkplaceSystem.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult PrintPage(int id)
+        {
+            UseModel use = _clientRepository.FindUseById(id);
+            ClientModel client = _clientRepository.FindById(use.ClientId);
+
+            return View(use);
+        }
 
         public IActionResult ClientDetails(int id)
         {
@@ -73,5 +80,7 @@ namespace WorkplaceSystem.Controllers
             _clientRepository.AddUse(use, Id);
             return RedirectToAction("Index");
         }
+
+        
     }
 }

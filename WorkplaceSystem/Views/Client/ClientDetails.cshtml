@@ -28,6 +28,9 @@
                         <td>@item.EndUse</td>
                         <td>@item.RentedRoom</td>
                         <td>@item.TotalUse</td>
+                        <td>
+                            <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="PrintPage" asp-route-id="@item.Id">Contrato</a>
+                        </td>
                     </tr>
 
                 }

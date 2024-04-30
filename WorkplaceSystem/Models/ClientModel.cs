@@ -9,5 +9,6 @@
         public DateTime CreateDate { get; set; } = DateTime.Now;
         public List<UseModel>? ClientUses { get; set; }
         public bool Situation { get; set; } = true;
+
     }
 }

@@ -11,5 +11,6 @@ namespace WorkplaceSystem.Repositories
         public ClientModel UpdateClient(ClientModel client);
         public UseModel AddUse(UseModel use, int id);
         public List<UseModel> FindAllUses();
+        public UseModel FindUseById(int id);
     }
 }

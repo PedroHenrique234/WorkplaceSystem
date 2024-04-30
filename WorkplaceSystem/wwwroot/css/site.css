@@ -92,3 +92,9 @@ form div #AddInput{
         background-color: #0B5ED7;
         color: white;
     }
+
+#PrintPageContent{
+    font-size: 25px;
+    margin-top:15rem;
+    margin-bottom:15rem;
+}

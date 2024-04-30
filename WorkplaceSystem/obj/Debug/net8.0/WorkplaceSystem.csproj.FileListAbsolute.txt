@@ -441,3 +441,4 @@ C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\WorkplaceSystem\WorkplaceSystem\ob
 C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\WorkplaceSystem\WorkplaceSystem\obj\Debug\net8.0\WorkplaceSystem.pdb
 C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\WorkplaceSystem\WorkplaceSystem\obj\Debug\net8.0\WorkplaceSystem.genruntimeconfig.cache
 C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\WorkplaceSystem\WorkplaceSystem\obj\Debug\net8.0\ref\WorkplaceSystem.dll
+C:\Users\yelow\OneDrive\Documentos\C#\Asp.Net\WorkplaceSystem\WorkplaceSystem\obj\Debug\net8.0\scopedcss\Views\Shared\LayoutClean.cshtml.rz.scp.css
