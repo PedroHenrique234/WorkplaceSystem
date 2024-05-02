@@ -100,7 +100,22 @@ form div #AddInput{
     }
 
 #PrintPageContent{
-    font-size: 25px;
+    font-size: 18px;
     margin-top:15rem;
-    margin-bottom:15rem;
+    margin-bottom:12rem;
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 6rem;
+    margin-top: -5rem;
+}
+
+#useSection select{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#useSection div{
+    width:350px;
 }

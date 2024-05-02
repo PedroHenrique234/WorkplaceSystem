@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SPOuSFH5v8VUCwju6WtkIbwrMCHUDmtbnb9rCDlGmQI=",
+  "Hash": "MkUQutadtf24RvcZNCBqbJQpJf40iSX4cOHWtuLD8L8=",
   "Source": "WorkplaceSystem",
   "BasePath": "_content/WorkplaceSystem",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\Images\\workplaceIcon.jpg",
+      "Identity": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\Imagens\\workplaceIcon.jpg",
       "SourceId": "WorkplaceSystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\",
       "BasePath": "_content/WorkplaceSystem",
-      "RelativePath": "Images/workplaceIcon.jpg",
+      "RelativePath": "Imagens/workplaceIcon.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\workplaceIcon.jpg"
+      "OriginalItemSpec": "wwwroot\\Imagens\\workplaceIcon.jpg"
     },
     {
       "Identity": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\js\\site.js",

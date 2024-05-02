@@ -4,35 +4,36 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Novo cliente!</h1>
+    <h1 class="display-4">Novo Uso!</h1>
+    <section id="useSection">
+        <form asp-controller="Client" asp-action="AddNewUse" method="post" required>
 
-    <form asp-controller="Client" asp-action="AddNewUse" method="post" required>
+            <input type="hidden" asp-for="@Model.ClientId" />
 
-        <input type="hidden" asp-for="@Model.ClientId" />
+            <div class="form-group">
+                <label for="DateUse">Data do uso</label>
+                <input asp-for="DateUse" type="date" class="form-control" required>
+            </div>
 
-        <div class="form-group">
-            <label for="DateUse">Data do uso</label>
-            <input asp-for="DateUse" type="date" class="form-control" required>
-        </div>
+            <div class="form-group">
+                <label for="StartUse">Início</label>
+                <input asp-for="StartUse" type="time" class="form-control" required>
+            </div>
 
-        <div class="form-group">
-            <label for="StartUse">Início</label>
-            <input asp-for="StartUse" type="time" class="form-control" required>
-        </div>
+            <div class="form-group">
+                <label for="EndUse">Término</label>
+                <input asp-for="EndUse" type="time" class="form-control" required>
+            </div>
 
-        <div class="form-group">
-            <label for="EndUse">Término</label>
-            <input asp-for="EndUse" type="time" class="form-control" required>
-        </div>
+            <select class="form-select" aria-label="Default select example" asp-for="RentedRoom">
+                <option selected>Selecione a sala a ser alugada</option>
+                <option value="0">Sala de Podcast</option>
+                <option value="1">Sala de reunião</option>
+                <option value="2">Baias de trabalho</option>
+            </select>
 
-        <select class="form-select" aria-label="Default select example" asp-for="RentedRoom">
-            <option selected>Selecione a sala a ser alugada</option>
-            <option value="0">Sala de Podcast</option>
-            <option value="1">Sala de reunião</option>
-            <option value="2">Baias de trabalho</option>
-        </select>
-
-        <button type="submit" class="btn btn-primary">Adicionar</button>
-        <a role="button" class="btn btn-secondary" asp-controller="Client" asp-action="Index">Voltar</a>
-    </form>
+            <button type="submit" class="btn btn-primary">Adicionar</button>
+            <a role="button" class="btn btn-secondary" asp-controller="Client" asp-action="Index">Voltar</a>
+        </form>
+    </section>
 </div>
