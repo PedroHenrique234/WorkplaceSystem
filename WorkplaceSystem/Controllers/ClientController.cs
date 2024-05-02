@@ -29,14 +29,14 @@ namespace WorkplaceSystem.Controllers
         }
         public IActionResult DisableConfirm(int Id)
         {
-            ClientModel client =_clientRepository.FindById(Id);
+            ClientModel client = _clientRepository.FindById(Id);
             return View(client);
         }
         [HttpPost]
         public IActionResult DisableClient(ClientModel client)
         {
             _clientRepository.DisableClient(client);
-            return RedirectToAction("Index");   
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -53,7 +53,7 @@ namespace WorkplaceSystem.Controllers
         [HttpPost]
         public IActionResult UpdateClient(ClientModel client)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _clientRepository.UpdateClient(client);
                 return RedirectToAction("Index");
@@ -72,7 +72,7 @@ namespace WorkplaceSystem.Controllers
         public IActionResult ClientDetails(int id, FilterModel filter)
         {
             ClientModel client = _clientRepository.FindById(filter.Id);
-            client.ClientUses = _clientRepository.FindUsesByDate(filter.Id, filter.StartDate,filter.EndDate);
+            client.ClientUses = _clientRepository.FindUsesByDate(filter.Id, filter.StartDate, filter.EndDate);
 
             return View(client);
         }
@@ -88,13 +88,10 @@ namespace WorkplaceSystem.Controllers
         [HttpPost]
         public IActionResult AddNewUse(UseModel use, int Id)
         {
-            if (ModelState.IsValid)
-            {
-                _clientRepository.AddUse(use, Id);
-                return RedirectToAction("Index");
-            }
-            return View(use);
+            _clientRepository.AddUse(use, Id);
+            return RedirectToAction("Index");
         }
+
         public IActionResult Filter(int id, DateTime start, DateTime end)
         {
             return View();

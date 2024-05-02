@@ -12,7 +12,7 @@ namespace WorkplaceSystem.Repositories
         }
         public ClientModel AddClient(ClientModel client)
         {
-            _bankContext.Clients.Add(client);   
+            _bankContext.Clients.Add(client);
             _bankContext.SaveChanges();
             return client;
         }
@@ -91,17 +91,54 @@ namespace WorkplaceSystem.Repositories
 
             List<UseModel> useList = new List<UseModel>();
 
-            if(_bankContext.Uses != null && _bankContext.Uses.Any())
+            DateTime StartNull = new DateTime();
+            DateTime EndNull = new DateTime();
+
+            if (start == StartNull && end == EndNull)
             {
                 foreach (UseModel item in _bankContext.Uses)
                 {
-                    if(item.DateUse >= start && item.DateUse <= end && item.ClientId == client.Id)
+                    if (item.ClientId == client.Id)
+                    {
+                        useList.Add(item);
+                    }
+
+                }
+            }
+
+            if (end != EndNull && start == StartNull)
+            {
+                foreach (UseModel item in _bankContext.Uses)
+                {
+                    if (item.DateUse <= end && item.ClientId == client.Id)
                     {
                         useList.Add(item);
                     }
                 }
             }
-            
+
+            if (end == EndNull && start != StartNull)
+            {
+                foreach (UseModel item in _bankContext.Uses)
+                {
+                    if (item.DateUse >= start && item.ClientId == client.Id)
+                    {
+                        useList.Add(item);
+                    }
+                }
+            }
+
+            if (start != StartNull && end != EndNull)
+            {
+                foreach (UseModel item in _bankContext.Uses)
+                {
+                    if (item.DateUse >= start && item.DateUse <= end && item.ClientId == client.Id)
+                    {
+                        useList.Add(item);
+                    }
+                }
+            }
+
             return useList;
         }
     }

@@ -6,26 +6,23 @@
 <div class="text-center">
     <h1 class="display-4">Novo cliente!</h1>
 
-    <form asp-controller="Client" asp-action="AddNewUse" method="post">
+    <form asp-controller="Client" asp-action="AddNewUse" method="post" required>
 
         <input type="hidden" asp-for="@Model.ClientId" />
 
         <div class="form-group">
             <label for="DateUse">Data do uso</label>
-            <input asp-for="DateUse" type="date" class="form-control">
-            @Html.ValidationMessageFor(x => x.DateUse)
+            <input asp-for="DateUse" type="date" class="form-control" required>
         </div>
 
         <div class="form-group">
             <label for="StartUse">Início</label>
-            <input asp-for="StartUse" type="time" class="form-control">
-            @Html.ValidationMessageFor(x => x.StartUse)
+            <input asp-for="StartUse" type="time" class="form-control" required>
         </div>
 
         <div class="form-group">
             <label for="EndUse">Término</label>
-            <input asp-for="EndUse" type="time" class="form-control">
-            @Html.ValidationMessageFor(x => x.EndUse)
+            <input asp-for="EndUse" type="time" class="form-control" required>
         </div>
 
         <select class="form-select" aria-label="Default select example" asp-for="RentedRoom">
