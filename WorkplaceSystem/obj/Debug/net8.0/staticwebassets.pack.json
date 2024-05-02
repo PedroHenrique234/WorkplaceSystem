@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WorkplaceSystem.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\Images\\workplaceIcon.jpg",
+      "PackagePath": "staticwebassets\\Images\\workplaceIcon.jpg"
+    },
+    {
       "Id": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

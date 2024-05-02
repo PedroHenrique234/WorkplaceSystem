@@ -60,12 +60,14 @@ namespace WorkplaceSystem.Controllers
             return View(use);
         }
 
-        public IActionResult ClientDetails(int id)
+        public IActionResult ClientDetails(int id, FilterModel filter)
         {
-            ClientModel client = _clientRepository.FindById(id);
-            List<UseModel> use = _clientRepository.FindAllUses();
+            ClientModel client = _clientRepository.FindById(filter.Id);
+            client.ClientUses = _clientRepository.FindUsesByDate(filter.Id, filter.StartDate,filter.EndDate);
+
             return View(client);
         }
+
         public IActionResult AddUse(int id)
         {
             ClientModel client = _clientRepository.FindById(id);
@@ -80,7 +82,9 @@ namespace WorkplaceSystem.Controllers
             _clientRepository.AddUse(use, Id);
             return RedirectToAction("Index");
         }
-
-        
+        public IActionResult Filter(int id, DateTime start, DateTime end)
+        {
+            return View();
+        }
     }
 }

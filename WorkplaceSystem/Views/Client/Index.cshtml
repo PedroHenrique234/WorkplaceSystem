@@ -11,7 +11,8 @@
 <div class="text-center">
     <table class="table table-striped" id="table-Clients">
         <thead>
-            <tr>
+            <tr
+                <th scope="col"></th>
                 <th scope="col">Nome</th>
                 <th scope="col">Telefone</th>
                 <th scope="col">Data de criação</th>
@@ -31,7 +32,7 @@
                             <td>@item.CreateDate</td>
                             <td>
                                 <a role="button" class="btn btn-primary"
-                                   asp-controller="Client" asp-action="ClientDetails" asp-route-id="@item.Id">Mais</a>
+                                   asp-controller="Client" asp-action="Filter" asp-route-id="@item.Id">Uso</a>
                                 <a role="button" class="btn btn-primary"
                                    asp-controller="Client" asp-action="UpdateClient" asp-route-id="@item.Id">Editar</a>
                                 <a role="button" class="btn btn-secondary"

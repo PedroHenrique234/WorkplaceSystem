@@ -29,6 +29,7 @@ namespace WorkplaceSystem.Repositories
             clientDb.Name = client.Name;
             clientDb.PhoneNumber = client.PhoneNumber;
             clientDb.CreateDate = client.CreateDate;
+            clientDb.CPF = client.CPF;
 
             _bankContext.Update(clientDb);
             _bankContext.SaveChanges();
@@ -81,6 +82,26 @@ namespace WorkplaceSystem.Repositories
         public List<UseModel> FindAllUses()
         {
             return _bankContext.Uses.ToList();
+        }
+
+        public List<UseModel> FindUsesByDate(int id, DateTime start, DateTime end)
+        {
+            ClientModel client = FindById(id);
+
+            List<UseModel> useList = new List<UseModel>();
+
+            if(_bankContext.Uses != null && _bankContext.Uses.Any())
+            {
+                foreach (UseModel item in _bankContext.Uses)
+                {
+                    if(item.DateUse >= start && item.DateUse <= end && item.ClientId == client.Id)
+                    {
+                        useList.Add(item);
+                    }
+                }
+            }
+            
+            return useList;
         }
     }
 }

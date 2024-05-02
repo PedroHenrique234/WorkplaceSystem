@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nN5j9NYAqV62Zlp4z1t3AfapsbVWmydCb0QLhjR21eI=",
+  "Hash": "SPOuSFH5v8VUCwju6WtkIbwrMCHUDmtbnb9rCDlGmQI=",
   "Source": "WorkplaceSystem",
   "BasePath": "_content/WorkplaceSystem",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\Images\\workplaceIcon.jpg",
+      "SourceId": "WorkplaceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\",
+      "BasePath": "_content/WorkplaceSystem",
+      "RelativePath": "Images/workplaceIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\workplaceIcon.jpg"
     },
     {
       "Identity": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\js\\site.js",
