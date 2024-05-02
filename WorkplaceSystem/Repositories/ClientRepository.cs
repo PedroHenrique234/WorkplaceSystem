@@ -47,6 +47,7 @@ namespace WorkplaceSystem.Repositories
             clientDb.Name = client.Name;
             clientDb.PhoneNumber = client.PhoneNumber;
             clientDb.CreateDate = client.CreateDate;
+            clientDb.CPF = client.CPF;
 
             _bankContext.Update(clientDb);
             _bankContext.SaveChanges();

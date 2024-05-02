@@ -11,16 +11,19 @@
             <div class="form-group">
                 <label for="Name">Nome</label>
                 <input asp-for="Name" id="AddInput" type="text" class="form-control" placeholder="@Model.Name">
+                @Html.ValidationMessageFor(x => x.Name)
             </div>
 
             <div class="form-group">
                 <label for="CPF">CPF</label>
                 <input id="AddInput" asp-for="CPF" type="tel" min="11" maxlength="11" class="form-control" placeholder="@Model.CPF" required>
+                @Html.ValidationMessageFor(x => x.CPF)
             </div>
 
             <div class="form-group">
                 <label for="Name">Telefone</label>
                 <input asp-for="PhoneNumber" id="AddInput" type="tel" onkeyup="formatarTelefone(this)" class="form-control" maxlength="11" class="form-control" placeholder="@Model.PhoneNumber">
+                @Html.ValidationMessageFor(x => x.PhoneNumber)
             </div>
 
             <button type="submit" class="btn btn-primary">Atualizar</button>

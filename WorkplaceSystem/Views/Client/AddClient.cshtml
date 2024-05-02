@@ -10,17 +10,20 @@
         <form asp-controller="Client" asp-action="AddClient" method="post">
             <div class="form-group">
                 <label for="Name">Nome</label>
-                <input id="AddInput" asp-for="Name" type="text" class="form-control" placeholder="Digite o nome do cliente" required>
+                <input id="AddInput" asp-for="Name" type="text" class="form-control" placeholder="Digite o nome do cliente">
+                @Html.ValidationMessageFor(x => x.Name)
             </div>
 
             <div class="form-group">
                 <label for="CPF">CPF</label>
-                <input id="AddInput" asp-for="CPF" type="tel" min="11" maxlength="11" class="form-control" placeholder="Digite o nome do cliente" required>
+                <input id="AddInput" asp-for="CPF" type="tel" min="11" maxlength="11" class="form-control" placeholder="Digite o nome do cliente" >
+                @Html.ValidationMessageFor(x => x.CPF)
             </div>
 
             <div class="form-group">
                 <label for="Name">Telefone</label>
-                <input id="AddInput" asp-for="PhoneNumber" type="tel" onkeyup="formatarTelefone(this)" class="form-control" maxlength="11" required-placeholder="(xx) xxxxx-xxxx">
+                <input id="AddInput" asp-for="PhoneNumber" type="tel" onkeyup="formatarTelefone(this)" class="form-control" maxlength="11" placeholder="(xx) xxxxx-xxxx">
+                @Html.ValidationMessageFor(x => x.PhoneNumber)
             </div>
 
             <button type="submit" class="btn btn-primary">Adicionar</button>

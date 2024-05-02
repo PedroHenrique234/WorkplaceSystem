@@ -42,14 +42,23 @@ namespace WorkplaceSystem.Controllers
         [HttpPost]
         public IActionResult AddClient(ClientModel client)
         {
-            _clientRepository.AddClient(client);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _clientRepository.AddClient(client);
+                return RedirectToAction("Index");
+            }
+
+            return View(client);
         }
         [HttpPost]
         public IActionResult UpdateClient(ClientModel client)
         {
-            _clientRepository.UpdateClient(client);
-            return RedirectToAction("Index");
+            if(ModelState.IsValid)
+            {
+                _clientRepository.UpdateClient(client);
+                return RedirectToAction("Index");
+            }
+            return View(client);
         }
 
         public IActionResult PrintPage(int id)
@@ -79,8 +88,12 @@ namespace WorkplaceSystem.Controllers
         [HttpPost]
         public IActionResult AddNewUse(UseModel use, int Id)
         {
-            _clientRepository.AddUse(use, Id);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _clientRepository.AddUse(use, Id);
+                return RedirectToAction("Index");
+            }
+            return View(use);
         }
         public IActionResult Filter(int id, DateTime start, DateTime end)
         {

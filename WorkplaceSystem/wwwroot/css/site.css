@@ -27,6 +27,12 @@ footer {
 }
 
 
+.field-validation-error{
+    color:#e01d1d;
+    display:flex;
+    margin-left:6px;
+}
+
 
 section{
     display: flex;
