@@ -19,6 +19,7 @@
         <tbody>
             @if (Model.ClientUses != null && Model.ClientUses.Any())
             {
+                DateTime totalUse = new DateTime();
                 @foreach (UseModel item in Model.ClientUses)
                 {
 
@@ -33,6 +34,7 @@
                         </td>
                     </tr>
 
+                    totalUse += item.TotalUse;
                 }
             }
         </tbody>
