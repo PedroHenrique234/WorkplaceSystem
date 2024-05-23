@@ -27,10 +27,10 @@ footer {
 }
 
 
-.field-validation-error{
-    color:#e01d1d;
-    display:flex;
-    margin-left:6px;
+.field-validation-error {
+    color: #e01d1d;
+    display: flex;
+    margin-left: 6px;
 }
 
 
@@ -119,3 +119,16 @@ img {
 #useSection div{
     width:350px;
 }
+
+.total-time {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: Arial;
+}
+    .total-time p {
+        margin-top:2rem;
+        align-items: center;
+        align-content: center;
+        height: 3rem;
+    }

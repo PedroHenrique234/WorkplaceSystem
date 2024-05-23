@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\workplacesystem\\workplacesystem\\views\\client\\clientdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\workplacesystem\\workplacesystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\workplacesystem\\workplacesystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\workplacesystem\\workplacesystem\\views\\client\\printpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\views\\client\\printpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\workplacesystem\\views\\client\\clientdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\views\\client\\clientdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|c:\\users\\yelow\\onedrive\\documentos\\c#\\asp.net\\workplacesystem\\workplacesystem\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\workplacesystem\\views\\client\\adduse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\views\\client\\adduse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\workplacesystem\\models\\usemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\models\\usemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\workplacesystem\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\workplacesystem\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BEADCA7-06EA-4B5B-9432-5B0644813B57}|WorkplaceSystem\\WorkplaceSystem.csproj|solutionrelative:workplacesystem\\models\\clientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +54,113 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WorkplaceSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-23T14:42:30.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WorkplaceSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T14:41:39.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrintPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Client\\PrintPage.cshtml",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Views\\Client\\PrintPage.cshtml",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Client\\PrintPage.cshtml",
+              "RelativeToolTip": "WorkplaceSystem\\Views\\Client\\PrintPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T14:41:19.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "WorkplaceSystem\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:33:08.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddUse.cshtml",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Client\\AddUse.cshtml",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Views\\Client\\AddUse.cshtml",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Client\\AddUse.cshtml",
+              "RelativeToolTip": "WorkplaceSystem\\Views\\Client\\AddUse.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T17:25:02.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientModel.cs",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\ClientModel.cs",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Models\\ClientModel.cs",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\ClientModel.cs",
+              "RelativeToolTip": "WorkplaceSystem\\Models\\ClientModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:27:52.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UseModel.cs",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\UseModel.cs",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Models\\UseModel.cs",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Models\\UseModel.cs",
+              "RelativeToolTip": "WorkplaceSystem\\Models\\UseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:20:22.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "WorkplaceSystem\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "WorkplaceSystem\\Repositories\\ClientRepository.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAUwJUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:19:48.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ClientDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Client\\ClientDetails.cshtml",
               "RelativeDocumentMoniker": "WorkplaceSystem\\Views\\Client\\ClientDetails.cshtml",
               "ToolTip": "C:\\Users\\yelow\\OneDrive\\Documentos\\C#\\Asp.Net\\WorkplaceSystem\\WorkplaceSystem\\Views\\Client\\ClientDetails.cshtml",
               "RelativeToolTip": "WorkplaceSystem\\Views\\Client\\ClientDetails.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-08T11:44:37.003Z",
               "EditorCaption": ""

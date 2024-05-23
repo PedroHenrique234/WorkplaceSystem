@@ -42,10 +42,14 @@ namespace WorkplaceSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Situation")
                         .HasColumnType("bit");
+
+                    b.Property<TimeSpan>("TotalTime")
+                        .HasColumnType("time");
 
                     b.HasKey("Id");
 

@@ -100,6 +100,7 @@ namespace WorkplaceSystem.Repositories
                 {
                     if (item.ClientId == client.Id)
                     {
+                        client.TotalTime += item.TotalUse;
                         useList.Add(item);
                     }
 
@@ -108,10 +109,12 @@ namespace WorkplaceSystem.Repositories
 
             if (end != EndNull && start == StartNull)
             {
+                
                 foreach (UseModel item in _bankContext.Uses)
                 {
                     if (item.DateUse <= end && item.ClientId == client.Id)
                     {
+                        client.TotalTime += item.TotalUse;
                         useList.Add(item);
                     }
                 }
@@ -123,6 +126,7 @@ namespace WorkplaceSystem.Repositories
                 {
                     if (item.DateUse >= start && item.ClientId == client.Id)
                     {
+                        client.TotalTime += item.TotalUse;
                         useList.Add(item);
                     }
                 }
@@ -134,6 +138,7 @@ namespace WorkplaceSystem.Repositories
                 {
                     if (item.DateUse >= start && item.DateUse <= end && item.ClientId == client.Id)
                     {
+                        client.TotalTime += item.TotalUse;
                         useList.Add(item);
                     }
                 }

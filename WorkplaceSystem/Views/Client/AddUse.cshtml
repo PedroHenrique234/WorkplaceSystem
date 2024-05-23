@@ -12,21 +12,20 @@
 
             <div class="form-group">
                 <label for="DateUse">Data do uso</label>
-                <input asp-for="DateUse" type="date" class="form-control" required>
+                <input asp-for="DateUse" type="date" class="form-control" value="dd/mm/yyyy" required>
             </div>
 
             <div class="form-group">
                 <label for="StartUse">Início</label>
-                <input asp-for="StartUse" type="time" class="form-control" required>
+                <input asp-for="StartUse" type="time" class="form-control" value="-" required>
             </div>
 
             <div class="form-group">
                 <label for="EndUse">Término</label>
-                <input asp-for="EndUse" type="time" class="form-control" required>
+                <input asp-for="EndUse" type="time" class="form-control" value="-" required>
             </div>
 
-            <select class="form-select" aria-label="Default select example" asp-for="RentedRoom">
-                <option selected>Selecione a sala a ser alugada</option>
+            <select class="form-select" aria-label="Default select example" asp-for="RentedRoom" required>
                 <option value="0">Sala de Podcast</option>
                 <option value="1">Sala de reunião</option>
                 <option value="2">Baias de trabalho</option>

@@ -19,7 +19,7 @@
         <tbody>
             @if (Model.ClientUses != null && Model.ClientUses.Any())
             {
-                DateTime totalUse = new DateTime();
+                TimeSpan totaluso2 = new TimeSpan();
                 @foreach (UseModel item in Model.ClientUses)
                 {
 
@@ -30,14 +30,21 @@
                         <td>@item.RentedRoom</td>
                         <td>@item.TotalUse</td>
                         <td>
-                            <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="PrintPage" asp-route-id="@item.Id">Contrato</a>
+                            <a role="button" class="btn btn-primary" asp-controller="Client" asp-action="PrintPage" target="_blank" asp-route-id="@item.Id">Contrato</a>
                         </td>
                     </tr>
-
-                    totalUse += item.TotalUse;
                 }
+
             }
         </tbody>
+
     </table>
+    <div class ="total-time">
+        <td>
+            <p>
+                Tempo total de uso:  @Model.TotalTime
+            </p>
+        </td>
+    </div>
 </div>
 <a role="button" class="btn btn-secondary" asp-controller="Client" asp-action="Filter" asp-route-id="@Model.Id">Voltar</a>
